@@ -4,10 +4,11 @@
     <title>Coding Quiz</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="INSERT JQUERY VER HERE"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
+    <form id="codequiz">
     <div class="container">
       <div class="row">
         <div class="col-md-1">
@@ -31,22 +32,22 @@
             <br>
           <div class="radio">
             <label>
-              <input type="radio" name="operator" value="1-A" checked>
+              <input type="radio" name="Q1" value="1" checked>
               Terminator - I'm taking my lunch money back.
             </label>
             <br>
             <label>
-              <input type="radio" name="operator" value="1-B">
+              <input type="radio" name="Q1" value="2">
               Hal-9000 - without the malfunctioning part I mean.
             </label>
             <br>
             <label>
-              <input type="radio" name="operator" value="1-C">
+              <input type="radio" name="Q1" value="3">
               Kitt - So people don't think I'm drunk when I talk to my car while eating a cheeseburger.
             </label>
             <br>
             <label>
-              <input type="radio" name="operator" value="1-D">
+              <input type="radio" name="Q1" value="4">
               The Matrix - but the William Gibson kind as opposed to the Keanu Reeves kind.
             </label>
           </div>
@@ -63,22 +64,22 @@
                 <p>Question 2: What is your end goal for learning to program?</p>
                 <div class="radio">
                 <label>
-                  <input type="radio" name="operator" value="2-A" checked>
+                  <input type="radio" name="Q2" value="1" checked>
                   Web Design or Web Development - I want to build, style, and create websites.
                 </label>
                 <br>
                 <label>
-                  <input type="radio" name="operator" value="2-B">
+                  <input type="radio" name="Q2" value="2">
                   Game Development - I want to make Video Games.
                 </label>
                 <br>
                 <label>
-                  <input type="radio" name="operator" value="2-C">
+                  <input type="radio" name="Q2" value="3">
                   Account and Database Management - I want to make that manages accounts and information connected to those accounts.
                 </label>
                 <br>
                 <label>
-                  <input type="radio" name="operator" value="2-D">
+                  <input type="radio" name="Q2" value="4">
                   Android Development - I want to develop UI, apps, and more for android.
                 </label>
                 </div>
@@ -95,15 +96,15 @@
                   <p>Question 3: What type of logic do you plan to work with?</p>
                   <div class="radio">
                   <label>
-                    <input type="radio" name="operator" value="3-A" checked>
+                    <input type="radio" name="Q3" value="1" checked>
                     Front End Logic - Designing the interface the user uses to input information into.
                   </label>
                   <label>
-                    <input type="radio" name="operator" value="3-B">
+                    <input type="radio" name="Q3" value="2">
                     Back End Logic - Designing the Arithmetic and inner workings that the user in most cases does not have access to.
                   </label>
                   <label>
-                    <input type="radio" name="operator" value="3-C">
+                    <input type="radio" name="Q3" value="3">
                     Both - I am interested in both types of Logic.
                   </label>
                 </div>
@@ -120,22 +121,22 @@
                   <p>Question 4: You discover a bug, you:</p>
                   <div class=radio>
                     <label>
-                      <input type="radio" name="operator" value="4-A" checked>
+                      <input type="radio" name="Q4" value="1" checked>
                         Meticulously check your work for typo's.
                     </label>
                     <br>
                     <label>
-                      <input type="radio" name="operator" value="4-B">
+                      <input type="radio" name="Q4" value="2">
                         Debug and troubleshoot.
                     </label>
                     <br>
                     <label>
-                      <input type="radio" name="operator" value="4-C">
+                      <input type="radio" name="Q4" value="3">
                         Change values until it works.
                     </label>
                     <br>
                     <label>
-                      <input type="radio" name="operator" value="4-D">
+                      <input type="radio" name="Q4" value="4">
                         Easy! Squash it.
                     </label>
                     </div>
@@ -152,25 +153,27 @@
                   <p>Question 5: What got you interested in coding?</p>
                     <div class="radio">
                       <label>
-                        <input type="radio" name="operator" value="5-A">
+                        <input type="radio" name="Q5" value="1" checked>
                           I'm interested in the designs and interactivity of websites.
                       </label>
                       <br>
                       <label>
-                        <input type="radio" name="operator" value="5-B">
+                        <input type="radio" name="Q5" value="2">
                           I like video games a lot and want to build my own.
                       </label>
                       <br>
                       <label>
-                        <input type="radio" name="operator" value="5-C">
+                        <input type="radio" name="Q5" value="3">
                           I want to design software and UI's for portable devices.
                       </label>
                       <br>
                       <label>
-                        <input type="radio" name="operator" value="5-D">
+                        <input type="radio" name="Q5" value="4">
                           I'm really into code that revolves around database management.
                       </label>
                     </div>
+                    <button type="submit"><b>JUST DO IT!</b></button>
+                  </form>
                   </div>
                 </div>
                 </div>
