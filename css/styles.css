@@ -14,3 +14,23 @@ button {
 .card-color2{
   background-color: gray;
 }
+
+.resultc{
+  display: none;
+}
+
+.resultjava{
+  display: none;
+}
+
+.resultruby{
+  display: none;
+}
+
+.resultdesign{
+  display: none;
+}
+
+.resultphp{
+  display: none;
+}
